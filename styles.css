@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #0b0b0b, #e9ecef);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .list-group-item.clicked {
+    background-color: #d1e7dd;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
+  }
+  
+  .list-group-item .btn {
+    margin-left: 10px;
+  }
+  
